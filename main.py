@@ -17,4 +17,26 @@ if quiz=="brazil":
 else :
     print(" Incorrect !!")
 
+quiz = input(" In what country is the Chernobyl nuclear plant located?   ").lower()
+if quiz=="ukraine":
+    print(" Correct Answer ")
+    score += 1
+else :
+    print(" Incorrect !!")
 
+quiz = input(" What planet is closest to the sun?   ").lower()
+if quiz=="mercury":
+    print(" Correct Answer ")
+    score += 1
+else :
+    print(" Incorrect !!")
+
+quiz = input(" On what continent would you find the world’s largest desert?   ").lower()
+if quiz=="antarctica":
+    print(" Correct Answer ")
+    score += 1
+else :
+    print(" Incorrect !!")
+
+print(" Quiz completed !! ")
+print(" Congratulations !! You've got " + str(score) + " Points" )
